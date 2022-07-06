@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+title {
+    font-size: 13px;
+
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1330px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(16, 19, 18, 0.993);
+    color: rgba(1, 204, 255, 0.993);
+}
+
+section {
+    padding: 20px;
+    background-image: url(../images/fundo.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.formcontainer {
+    max-width: 400px;
+    float: right;
+    background-color: rgba(26, 204, 255, 0.993);
+    padding: 19px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    font: bold;
+}
+
+input:hover {
+
+    border-color: greenyellow;
+
+}
+
+select:hover {
+    border-color: greenyellow;
+}
+
+#sub {
+    color: black;
+    background-color: greenyellow;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+
+.picture {
+    width: 30vw;
+    min-width: 300px;
+
+}
+
+footer {
+    background-color: rgba(41, 38, 38, 0.959);
+    padding: 40px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .formcontainer {
+        max-width: 100%;
+    }
+}
