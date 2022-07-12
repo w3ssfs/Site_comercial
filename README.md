@@ -2,4 +2,5 @@
 - Feito em propósito de aprendizado! <br>
 - Objetivo do site é: <br>
 - Criar um layout personalizado para clientes com escolhas pré-definidas <br>
-> Feito com HTML, CSS
+
+>Feito com HTML, CSS
